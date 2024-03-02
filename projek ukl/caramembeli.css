@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Untuk membuat gambar berada di tengah vertikal */
+  }
+  
+  .center-image {
+    max-width: 100%;
+    max-height: 100%;
+    border: 2px solid #000;
+  }
+  body{
+    background-image: url(https://store.sirclo.com/blog/wp-content/uploads/2022/03/3.-kaos-distro.jpg);
+  }
+  .container {
+    position: relative;
+  }
+  h1{
+  text-align: center; 
+  }
+  
+  

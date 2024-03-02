@@ -1,0 +1,35 @@
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+  }
+  
+  .profile-picture {
+    width: 600px;
+    margin-right: 20px;
+  }
+  
+  .profile-picture img {
+    width: 100%;
+    border-radius: 100%;
+  }
+  
+  .profile-info {
+    flex-grow: 1;
+  }
+  
+  .profile-info h1 {
+    margin-top: 0;
+  }
+  
+  .profile-info p {
+    margin-bottom: 10px;
+  }
+  body{
+    background-image:url(https://store.sirclo.com/blog/wp-content/uploads/2022/03/3.-kaos-distro.jpg) ;
+  }
+  

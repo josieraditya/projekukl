@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Halaman Pembayaran</title>
+  <link rel="stylesheet" href="tempatmembeli.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Halaman Pembayaran</h1>
+    <form action="tempat.php" method="post">
+      <div class="form-group">
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" name="nama" placeholder="contoh:muhammad agus" required>
+      </div>
+      <div class="form-group">
+        <label for="nama_barang">pilih barang:</label>
+        <select id="metode_pembayaran" name="nama_barang" required>
+          <option value="" disabled selected>pilih barang yg ingin dibeli</option>
+          <option value="baju 1">hitam pendek dan tidak ramai gambar bisa request warna baju dan gambar</option>
+          <option value="baju 1">hitam pendek dan satu gambar bisa request warna baju dan gambar</option>
+          <option value="baju 1">hitam pendek <br>dan satu gambar <br>bisa request warna baju dan gambar</option>
+          <option value="baju 1">hitam pendek <br>dan tidak ramai gambar <br>bisa request warna baju dan gambar</option>
+          <option value="baju 1">pendek 2 warna <br>bisa request warna baju dan gambar</option>
+          <option value="baju 1">lengan panjang<br>bergambar <br>bisa request warna baju dan gambar</option>
+          <!-- Anda dapat menambahkan opsi lainnya sesuai kebutuhan -->
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="nomor_wa">Nomor wa:</label>
+        <input type="text" id="nomor_wa" name="nomor_wa" placeholder="contoh:081234567890" required>
+      </div>
+      <div class="form-group">
+        <label for="warna">warna:</label>
+        <input type="text" id="warna" name="warna" placeholder="contoh:biru daun" required>
+      </div>
+      <div class="form-group">
+        <label for="ukuran">ukuran:</label>
+        <input type="text" id="ukuran" name="ukuran" placeholder="s s/d xxxxxxxxxxxxl" required>
+      </div>
+      <div class="form-group">
+        <label for="model">model:</label>
+        <input type="text" id="model" name="model" placeholder="contoh:lengan pendek ketat" required>
+      </div>
+      <!-- Kolom lainnya sesuai metode pembayaran yang dipilih -->
+      <button type="submit">Kirim</button>
+    </form>
+     
+    <br>pembayaran/request gambar dan lain-lain hubungi:082141004052
+  </div>
+</body>
+</html>
